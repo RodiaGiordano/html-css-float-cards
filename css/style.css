@@ -10,9 +10,17 @@
 
 /* UTILITY*/
 
+main{
+    margin:auto;
+    max-width: 85%;
+
+}
+
 .card{
-    width: 200px;
+    width: calc(100% / 3 - 20px);
     background-color: rgb(15, 14, 23);
+    margin: 10px;
+
 }
 
 
@@ -21,7 +29,7 @@
     float:left;
 }
 
-.color-w{
+h3, span{
     color:white;
 }
 
@@ -39,7 +47,7 @@ header{
 
 img{
     max-width: 100%;
-    width: 100px;
+    width: 80px;
 }
 
 
