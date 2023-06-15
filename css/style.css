@@ -4,8 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Sonsie One', cursive;
+    font-family: 'Bagel Fat One', cursive;
 
 }
 
@@ -23,6 +22,9 @@ main::after{
 main{
     margin:auto;
     max-width: 81%;
+    font-family: 'Concert One', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Sonsie One', cursive;
 
 }
 
@@ -30,6 +32,7 @@ main{
     width: calc(100% / 3 - 20px);
     background-color: rgb(15, 14, 23);
     margin: 10px 10px 40px;
+    float: left;
 }
 
 .clearfix::after{
