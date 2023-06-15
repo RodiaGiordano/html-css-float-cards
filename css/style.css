@@ -6,6 +6,17 @@
     padding: 0;
 }
 
+main::after{
+    clear:both;
+    display: block;
+    content:"";
+}
+
+.f-right::after{
+    clear:both;
+    display: block;
+    content:"";
+}
 
 
 /* UTILITY*/
@@ -20,8 +31,9 @@ main{
     width: calc(100% / 3 - 20px);
     background-color: rgb(15, 14, 23);
     margin: 10px;
-
+    
 }
+
 
 
 
@@ -31,7 +43,9 @@ main{
 
 h3, span{
     color:white;
+    line-height: 26.6px;
 }
+
 
 /* HEADER */
 
@@ -51,16 +65,22 @@ p{
     margin-bottom: 30px;
 }
 
+
+
 img{
     max-width: 100%;
     width: 80px;
+    float:left;
+    margin-right: 20px;
+}
+
+a{
+    font-style:normal;
+    text-decoration:none;
+    color: #2299D7;
 }
 
 
 
-.debug{
-    background-color: red;
-    
-    
-}
+
 
