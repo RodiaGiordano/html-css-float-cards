@@ -10,14 +10,40 @@
 
 /* UTILITY*/
 
+.card::after{
+    content:"";
+    display: block;
+    clear:both;
 
+}
+
+.clearfix{
+    clear:both;
+}
 
 
 
 /* HEADER */
 
+header{
+    text-align: center;
+}
 
-
-
+h3{
+    
+    
+}
 
 /* main */
+
+img.f-left{
+    float: left;
+}
+
+
+
+.debug{
+    background-color: red;
+    
+}
+
